@@ -1,9 +1,7 @@
 [build]
-  command = "cd apps/web && npm install && npm run build"
-  publish = "apps/web/.next"
-
-[build.environment]
-  NEXT_PRIVATE_STANDALONE = "false"
+  base = "apps/web"
+  command = "npm install && npm run build"
+  publish = ".next"
 
 [[headers]]
   for = "/*"
