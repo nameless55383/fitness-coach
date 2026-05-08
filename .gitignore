@@ -1,0 +1,15 @@
+node_modules
+.next
+.env.local
+*.local
+
+# Build artifacts
+.next/
+
+# Supabase CLI temp files
+supabase/.temp/
+apps/web/supabase/.temp/
+
+# OS files
+.DS_Store
+Thumbs.db
